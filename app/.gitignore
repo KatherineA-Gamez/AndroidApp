@@ -1,1 +1,57 @@
-/build
+# Archivos de sistema - macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Archivos de sistema - Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*.lock
+*.log
+
+# Archivos generados por Android Studio
+.gradle/
+.idea/
+*.iml
+local.properties
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Archivos de dependencias
+.gradle/
+*/build/
+!*/src/**/build/ # Excepción para evitar ignorar archivos fuente erróneamente
+.kotlinc/
+.kts/
+out/
+
+# Archivos de configuración de entorno
+.env
+*.keystore
+*.jks
+
+# Archivos generados por lint
+lint/intermediates/
+lint/generated/
+
+# Otros posibles
+*.hprof
+*.orig
+
+# Ignorar versiones temporales o bloqueadas de archivos
+*.~lock.*
+~$*
