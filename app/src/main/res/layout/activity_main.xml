@@ -50,6 +50,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/SwCambiarModo" />
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
@@ -76,6 +77,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="26dp"
         app:layout_constraintStart_toStartOf="parent"
+
         app:layout_constraintTop_toBottomOf="@+id/chboxDesactivacambiomodo">
         <RadioButton
             android:id="@+id/rbMostrarLista"
@@ -97,4 +99,22 @@
         android:layout_marginTop="46dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+    <ImageButton
+        android:id="@+id/imgButtonFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtEstadoModo"
+        app:srcCompat="@android:drawable/ic_menu_today" />
+    <ImageButton
+        android:id="@+id/imgButtonHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgButtonFecha"
+        app:srcCompat="@android:drawable/ic_menu_recent_history" />
 </androidx.constraintlayout.widget.ConstraintLayout>
